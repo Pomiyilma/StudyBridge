@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@googleapis/youtube": "^30.1.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "firebase": "^12.7.0",
+    "google-auth-library": "^10.5.0",
+    "googleapis": "^169.0.0",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "nodemailer": "^7.0.12"
+  }
+}
