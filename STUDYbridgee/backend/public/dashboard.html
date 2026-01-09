@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>StudyBridge | Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <header class="dashboard-header">
+      <div class="logo">🎓 StudyBridge</div>
+
+      <nav class="dashboard-nav">
+        <a href="dashboard.html" class="active">🏠 Dashboard</a>
+        <a href="#">🔎 Explore</a>
+        <a href="profile.html">👤 Profile</a>
+        <a href="index.html">🚪 Logout</a>
+      </nav>
+    </header>
+
+    <main class="dashboard">
+      <!-- Welcome -->
+      <section class="welcome-section">
+        <h2>Welcome to StudyBridge 👋</h2>
+        <p>
+          Search a topic or explore a subject to understand how concepts
+          connect.
+        </p>
+      </section>
+
+      <!-- Search -->
+      <section class="search-section">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search a topic (e.g Energy, Motion, Photosynthesis)"
+        />
+        <button onclick="searchTopic()">Search</button>
+      </section>
+
+      <!-- Explore Subjects -->
+      <section class="subject-section">
+        <h3>Explore by Subject</h3>
+        <div class="subject-grid">
+          <div class="subject-card" onclick="filterSubject('Physics')">
+            ⚛ Physics
+          </div>
+          <div class="subject-card" onclick="filterSubject('Biology')">
+            🧬 Biology
+          </div>
+          <div class="subject-card" onclick="filterSubject('Chemistry')">
+            🧪 Chemistry
+          </div>
+          <div class="subject-card" onclick="filterSubject('Maths')">
+            📐 Mathematics
+          </div>
+        </div>
+      </section>
+
+      <!-- Recommended Topics -->
+      <section class="topics-section">
+        <h3>Recommended Topics</h3>
+        <div id="topicList" class="topic-grid"></div>
+      </section>
+
+      <!-- Activity -->
+      <section class="activity-section">
+        <h3>Your Learning Activity</h3>
+        <p class="subtitle">Days you explored topics this week</p>
+        <div class="calendar">
+          <span class="active"></span>
+          <span class="active"></span>
+          <span></span>
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </section>
+    </main>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>

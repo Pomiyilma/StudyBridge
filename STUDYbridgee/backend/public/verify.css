@@ -1,0 +1,110 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* PAGE BACKGROUND */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CARD */
+.container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* HEADINGS */
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* INPUTS */
+.container input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 15px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.container input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+/* READONLY EMAIL */
+.container input[readonly] {
+  background-color: #f1f5f9;
+  cursor: not-allowed;
+}
+
+/* BUTTONS */
+.container button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.container button:hover {
+  background: #1d4ed8;
+}
+
+.container button:active {
+  transform: scale(0.98);
+}
+
+/* MESSAGE TEXT */
+#message {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* STEP ANIMATION */
+#password-step {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .container {
+    margin: 16px;
+    padding: 24px;
+  }
+}

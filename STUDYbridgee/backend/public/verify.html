@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Verify Account</title>
+    <link rel="stylesheet" href="verify.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="verify-step">
+        <h2>Verify Email</h2>
+        <input type="email" id="email" />
+        <input type="text" id="code" placeholder="6-digit code" />
+        <button id="verify-btn">Verify Code</button>
+      </div>
+
+      <div id="password-step" style="display: none">
+        <h2>Create Password</h2>
+        <input type="password" id="password" placeholder="Password" />
+        <input type="password" id="confirm" placeholder="Confirm Password" />
+        <button id="complete-btn">Complete Registration</button>
+      </div>
+
+      <p id="message"></p>
+    </div>
+
+    <script src="verify.js"></script>
+  </body>
+</html>

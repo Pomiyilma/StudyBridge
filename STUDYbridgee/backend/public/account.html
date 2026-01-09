@@ -1,0 +1,64 @@
+<!--http://localhost:5000/account.html   ON CHROME TO OPEN-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>StudyBridge</title>
+    <link rel="stylesheet" href="account.css" />
+  </head>
+
+  <body>
+    <div class="container active" id="container">
+      <div class="form-container register">
+        <form>
+          <h1>Create account</h1>
+          <span>or use your email for registration</span>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+
+          <button type="submit">Register</button>
+        </form>
+      </div>
+
+      <div class="form-container log-in">
+        <form>
+          <h1>Log In</h1>
+          <span>or use your email and password</span>
+          <input required type="email" placeholder="Email" />
+          <input required type="password" placeholder="Password" />
+          <a href="forgot-password.html">Forgot Your Password ?</a>
+          <button type="submit">Log In</button>
+        </form>
+      </div>
+
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Welcome to StudyBridge!</h1>
+            <p>Already have an account? Login to use all of site features</p>
+            <button class="hidden" id="login-id" type="button">Log in</button>
+          </div>
+
+          <div class="toggle-panel toggle-right">
+            <h1>Welcome Back!</h1>
+            <p>
+              Don't have an account? Register with your personal details to use
+              all of site features
+            </p>
+            <button class="hidden" id="register-id" type="button">
+              Register
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="account.js"></script>
+  </body>
+</html>
