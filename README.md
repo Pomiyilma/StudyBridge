@@ -1,6 +1,6 @@
 
  ## 📌 IMPORTANT NOTE
-The **iMPROVED AND COMPLETE VERSION* of this project is available on the **`master` branch**.  
+The **IMPROVED AND COMPLETE VERSION* of this project is available on the **`master` branch**.  
 Please switch to the `master` branch to access the latest updates, fixes, and enhancements.
                                                     
                                                         StudyBridge
