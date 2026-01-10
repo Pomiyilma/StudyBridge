@@ -1,3 +1,8 @@
+
+ ## 📌 IMPORTANT NOTE
+The **iMPROVED AND COMPLETE VERSION* of this project is available on the **`master` branch**.  
+Please switch to the `master` branch to access the latest updates, fixes, and enhancements.
+                                                    
                                                         StudyBridge
 StudyBridge is an intelligent learning platform designed to connect academic topics across subjects and guide Ethiopian Highschool students 
 in topic-connection exploration by helping them have a deep understanding in one smooth flow. It relies on accurate topic connection through 
