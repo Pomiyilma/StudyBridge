@@ -29,10 +29,10 @@ Uses trusted learning sources: YouTube videos, Published books, Wikipedia descri
 Navigate to: STUDYbridgee/backend
 Run: npm install
      npm start
-You should see: OPENAI_API_KEY: FOUND ✅  
-                🚀 Server running on port 5000  
-                Auth DB connected ✅ 
-                Main DB connected ✅
+You should see: OPENAI_API_KEY: FOUND 
+                 Server running on port 5000  
+                Auth DB connected  
+                Main DB connected 
 
 - Start the React Frontend
 Navigate to: STUDYbridgee/studybridge-frontend
